@@ -63,7 +63,7 @@ function todoApp(state = initialState, action){
 
 >#### Object.assign()은 ES6의 일부이지만, 대부분 브라우저에 구현되지 않음. Babel플러그인 사용할것.  concat 함수를 사용한적 있는것 같음.  
 
->####  Switch문은 보일러플레이트가 아님. [보일러플레이트 줄이기]https://deminoth.github.io/redux/recipes/ReducingBoilerplate.html
+>####  Switch문은 보일러플레이트가 아님. [보일러플레이트 줄이기](https://deminoth.github.io/redux/recipes/ReducingBoilerplate.html)
 
 ## 더 많은 액션 다루기
 ```
@@ -96,7 +96,7 @@ function todoApp(state = initialState, action) {
 }
 ```
 이런 코드를 자주 작성 해야 한다면 React.addons.update, updeep 같은 헬퍼나  
-Immutable같이 깊은 수정을 지원하는 라이브러리를 사용하는 걸 추천.
+Immutable같이 깊은 수정을 지원하는 라이브러리를 사용하는 걸 추천.  
 **state를 복사하기 전엔 그 안의 무엇에도 할당하지 말아야함!**
 
 ## 리듀서 쪼개기!  
@@ -195,7 +195,7 @@ function reducer(state, action) {
   };
 }
 ```
-**combineReducers()**은 리듀서들을 **키에 따라 선택해서 잘라낸 상태들**로 호출하고  
+```combineReducers()```은 리듀서들을 **키에 따라 선택해서 잘라낸 상태들**로 호출하고  
 그 결과를 하나의 객체로 합쳐주는 함수를 만드는 것 뿐임
 
 ### Cf) 관계에 대한 한마디 
