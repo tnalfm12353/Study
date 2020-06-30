@@ -1,5 +1,6 @@
-https://jeonghwan-kim.github.io/dev/2019/07/22/react-saga-ts-1.html
+https://jeonghwan-kim.github.io/dev/2019/07/22/react-saga-ts-1.html   
 
+https://github.com/reactkr/learn-react-in-korean/blob/master/translated/deal-with-async-process-by-redux-saga.md
 # SAGA
 
 ### 비동기
